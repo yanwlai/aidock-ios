@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AIdockClientDemo</string>
+    <string name="notifications_enable_tip">Please turn on notification permission to prevent background recording from being interrupted.</string>
+    <string name="notifications_enable_screen_tip">Please turn on notification permission to prevent background
+        screen sharing from being interrupted.</string>
+    <string name="setting">Setting</string>
+</resources>

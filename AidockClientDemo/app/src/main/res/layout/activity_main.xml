@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".component.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_screenshare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dp_48" />
+
+    <FrameLayout
+        android:id="@+id/fl_camera"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_180" />
+
+    <!-- 底部导航栏：返回 / 主页 / 最近任务 -->
+    <LinearLayout
+        android:id="@+id/ll_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_gravity="bottom"
+        android:background="#CC000000"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Home"
+            android:src="@android:drawable/ic_menu_today"
+            app:tint="@android:color/white" />
+
+        <ToggleButton
+            android:id="@+id/btn_toggle_media"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:textOn="摄像头:开"
+            android:textOff="摄像头:关"
+            android:checked="false"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/btn_recents"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Recents"
+            android:src="@android:drawable/ic_menu_recent_history"
+            app:tint="@android:color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>

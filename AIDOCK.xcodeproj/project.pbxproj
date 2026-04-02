@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1654542E2E5463960034A32D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654542D2E5463960034A32D /* LoginViewController.m */; };
+		1672430F2E540FD3001470E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 167243022E540FD3001470E5 /* AppDelegate.m */; };
+		167243102E540FD3001470E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 167243072E540FD3001470E5 /* main.m */; };
+		167243112E540FD3001470E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1672430B2E540FD3001470E5 /* SceneDelegate.m */; };
+		167243132E540FD3001470E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167243032E540FD3001470E5 /* Assets.xcassets */; };
+		167243152E540FD3001470E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167243062E540FD3001470E5 /* LaunchScreen.storyboard */; };
+		167243192E541894001470E5 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167243182E541894001470E5 /* StartViewController.m */; };
+		167243882E5426E2001470E5 /* BindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167243872E5426E2001470E5 /* BindViewController.m */; };
+		169A46BE2F4EF4BC0013375B /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169A46BD2F4EF4BC0013375B /* ScanViewController.swift */; };
+		16B9B5672E82732100496B3D /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B9B5662E82732100496B3D /* GestureView.m */; };
+		16DCE5A22F3C8A7100872C10 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DCE5A02F3C8A7100872C10 /* NetworkManager.m */; };
+		16DCE5C52F3DB69200872C10 /* WhiteDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DCE5C42F3DB69200872C10 /* WhiteDotView.m */; };
+		16FF880B2E555A1500B35CC4 /* PasswordDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF880A2E555A1500B35CC4 /* PasswordDotView.m */; };
+		16FF880E2E555EC800B35CC4 /* PasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF880D2E555EC800B35CC4 /* PasswordInputView.m */; };
+		16FF88112E556C8200B35CC4 /* CustomKeybordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF88102E556C8200B35CC4 /* CustomKeybordView.m */; };
+		16FF88142E556D4900B35CC4 /* KeybordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF88132E556D4900B35CC4 /* KeybordCell.m */; };
+		16FF88192E55AE7600B35CC4 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF88182E55AE7500B35CC4 /* ConnectViewController.m */; };
+		A769A86F2C114C00A1926A38 /* NoPopNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26461DE8DE5F4E8CB1136EC6 /* NoPopNavigationController.m */; };
+		16FF881B2E55B6B000B35CC4 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 16FF881A2E55B6B000B35CC4 /* video.mp4 */; };
+		16FF88212E55C12C00B35CC4 /* CLHaloLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF88202E55C12C00B35CC4 /* CLHaloLabel.m */; };
+		9725DFDB2F7231A1008E49F4 /* NoPopNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9725DFDA2F7231A1008E49F4 /* NoPopNavigationController.m */; };
+		97ECDEA82F6D1CE500D2DC21 /* AgoraRtmKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ECDEA72F6D1CE500D2DC21 /* AgoraRtmKit.xcframework */; };
+		97ECDEA92F6D1CE500D2DC21 /* AgoraRtmKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97ECDEA72F6D1CE500D2DC21 /* AgoraRtmKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97ECDEAB2F6D1CF200D2DC21 /* Pods_AIDOCK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B9B334E7AF751F4F9A8B52 /* Pods_AIDOCK.framework */; };
+		97ECDEAC2F6D1CF200D2DC21 /* Pods_AIDOCK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91B9B334E7AF751F4F9A8B52 /* Pods_AIDOCK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9B1C2D42F5A6B7C0034D21E /* AgoraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B1C2D32F5A6B7C0034D21E /* AgoraViewController.swift */; };
+		A9C1D0012F5B00000034D21E /* AgoraTokenBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1D0002F5B00000034D21E /* AgoraTokenBuilder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97ECDEAA2F6D1CE500D2DC21 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				97ECDEA92F6D1CE500D2DC21 /* AgoraRtmKit.xcframework in Embed Frameworks */,
+				97ECDEAC2F6D1CF200D2DC21 /* Pods_AIDOCK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E82B39B9F7DC565FF9F2322 /* Pods-AIDOCK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDOCK.debug.xcconfig"; path = "Target Support Files/Pods-AIDOCK/Pods-AIDOCK.debug.xcconfig"; sourceTree = "<group>"; };
+		16444CDE2E605CBF002E9852 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		1654542C2E5463960034A32D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1654542D2E5463960034A32D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		167242E42E540FC8001470E5 /* AIDOCK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIDOCK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		167243012E540FD3001470E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		167243022E540FD3001470E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		167243032E540FD3001470E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		167243042E540FD3001470E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167243052E540FD3001470E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		167243072E540FD3001470E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1672430A2E540FD3001470E5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1672430B2E540FD3001470E5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		167243172E541894001470E5 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		167243182E541894001470E5 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		167243862E5426E2001470E5 /* BindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BindViewController.h; sourceTree = "<group>"; };
+		167243872E5426E2001470E5 /* BindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BindViewController.m; sourceTree = "<group>"; };
+		169A46BD2F4EF4BC0013375B /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		16B9B5652E82732100496B3D /* GestureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		16B9B5662E82732100496B3D /* GestureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		16DCE59F2F3C8A7100872C10 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		16DCE5A02F3C8A7100872C10 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		16DCE5C32F3DB69200872C10 /* WhiteDotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiteDotView.h; sourceTree = "<group>"; };
+		16DCE5C42F3DB69200872C10 /* WhiteDotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteDotView.m; sourceTree = "<group>"; };
+		16FF88092E555A1500B35CC4 /* PasswordDotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordDotView.h; sourceTree = "<group>"; };
+		16FF880A2E555A1500B35CC4 /* PasswordDotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordDotView.m; sourceTree = "<group>"; };
+		16FF880C2E555EC800B35CC4 /* PasswordInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordInputView.h; sourceTree = "<group>"; };
+		16FF880D2E555EC800B35CC4 /* PasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputView.m; sourceTree = "<group>"; };
+		16FF880F2E556C8200B35CC4 /* CustomKeybordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomKeybordView.h; sourceTree = "<group>"; };
+		16FF88102E556C8200B35CC4 /* CustomKeybordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomKeybordView.m; sourceTree = "<group>"; };
+		16FF88122E556D4900B35CC4 /* KeybordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeybordCell.h; sourceTree = "<group>"; };
+		16FF88132E556D4900B35CC4 /* KeybordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeybordCell.m; sourceTree = "<group>"; };
+		16FF88172E55AE7500B35CC4 /* ConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		89E8A303E65F4B109079946C /* NoPopNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoPopNavigationController.h; sourceTree = "<group>"; };
+		26461DE8DE5F4E8CB1136EC6 /* NoPopNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoPopNavigationController.m; sourceTree = "<group>"; };
+		16FF88182E55AE7500B35CC4 /* ConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		16FF881A2E55B6B000B35CC4 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		16FF881F2E55C12C00B35CC4 /* CLHaloLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLHaloLabel.h; sourceTree = "<group>"; };
+		16FF88202E55C12C00B35CC4 /* CLHaloLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLHaloLabel.m; sourceTree = "<group>"; };
+		16FF88252E58017600B35CC4 /* AIDOCK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIDOCK-Bridging-Header.h"; sourceTree = "<group>"; };
+		2555BEC37CFD75BF8F1CED28 /* Pods-AIDOCK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDOCK.release.xcconfig"; path = "Target Support Files/Pods-AIDOCK/Pods-AIDOCK.release.xcconfig"; sourceTree = "<group>"; };
+		91B9B334E7AF751F4F9A8B52 /* Pods_AIDOCK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIDOCK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9725DFDA2F7231A1008E49F4 /* NoPopNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NoPopNavigationController.m; path = AIDOCK/ViewController/NoPopNavigationController.m; sourceTree = "<group>"; };
+		97ECDEA72F6D1CE500D2DC21 /* AgoraRtmKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraRtmKit.xcframework; sourceTree = "<group>"; };
+		A9B1C2D32F5A6B7C0034D21E /* AgoraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraViewController.swift; sourceTree = "<group>"; };
+		A9C1CFFF2F5B00000034D21E /* AgoraTokenBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgoraTokenBuilder.h; sourceTree = "<group>"; };
+		A9C1D0002F5B00000034D21E /* AgoraTokenBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgoraTokenBuilder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167242E12E540FC8001470E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97ECDEA82F6D1CE500D2DC21 /* AgoraRtmKit.xcframework in Frameworks */,
+				97ECDEAB2F6D1CF200D2DC21 /* Pods_AIDOCK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167242DB2E540FC8001470E5 = {
+			isa = PBXGroup;
+			children = (
+				9725DFDA2F7231A1008E49F4 /* NoPopNavigationController.m */,
+				16FF881A2E55B6B000B35CC4 /* video.mp4 */,
+				1672430E2E540FD3001470E5 /* AIDOCK */,
+				167242E52E540FC8001470E5 /* Products */,
+				51A09513ECA3B8A029E2BE91 /* Pods */,
+				61A26F126DD76EC71264A3F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		167242E52E540FC8001470E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167242E42E540FC8001470E5 /* AIDOCK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1672430E2E540FD3001470E5 /* AIDOCK */ = {
+			isa = PBXGroup;
+			children = (
+				16FF88252E58017600B35CC4 /* AIDOCK-Bridging-Header.h */,
+				167243012E540FD3001470E5 /* AppDelegate.h */,
+				167243022E540FD3001470E5 /* AppDelegate.m */,
+				167243032E540FD3001470E5 /* Assets.xcassets */,
+				167243042E540FD3001470E5 /* Info.plist */,
+				167243062E540FD3001470E5 /* LaunchScreen.storyboard */,
+				167243072E540FD3001470E5 /* main.m */,
+				16444CDE2E605CBF002E9852 /* Common.h */,
+				A9C1CFFF2F5B00000034D21E /* AgoraTokenBuilder.h */,
+				A9C1D0002F5B00000034D21E /* AgoraTokenBuilder.m */,
+				1672430A2E540FD3001470E5 /* SceneDelegate.h */,
+				1672430B2E540FD3001470E5 /* SceneDelegate.m */,
+				16FF88232E56F13C00B35CC4 /* ViewController */,
+				16DCE5A12F3C8A7100872C10 /* Network */,
+				16FF88242E56F16000B35CC4 /* View */,
+			);
+			path = AIDOCK;
+			sourceTree = "<group>";
+		};
+		16DCE5A12F3C8A7100872C10 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				16DCE59F2F3C8A7100872C10 /* NetworkManager.h */,
+				16DCE5A02F3C8A7100872C10 /* NetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		16FF88232E56F13C00B35CC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				167243172E541894001470E5 /* StartViewController.h */,
+				167243182E541894001470E5 /* StartViewController.m */,
+				167243862E5426E2001470E5 /* BindViewController.h */,
+				167243872E5426E2001470E5 /* BindViewController.m */,
+				169A46BD2F4EF4BC0013375B /* ScanViewController.swift */,
+				A9B1C2D32F5A6B7C0034D21E /* AgoraViewController.swift */,
+				1654542C2E5463960034A32D /* LoginViewController.h */,
+				1654542D2E5463960034A32D /* LoginViewController.m */,
+				16FF88172E55AE7500B35CC4 /* ConnectViewController.h */,
+				16FF88182E55AE7500B35CC4 /* ConnectViewController.m */,
+				89E8A303E65F4B109079946C /* NoPopNavigationController.h */,
+				26461DE8DE5F4E8CB1136EC6 /* NoPopNavigationController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		16FF88242E56F16000B35CC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16FF88092E555A1500B35CC4 /* PasswordDotView.h */,
+				16FF880A2E555A1500B35CC4 /* PasswordDotView.m */,
+				16FF880C2E555EC800B35CC4 /* PasswordInputView.h */,
+				16FF880D2E555EC800B35CC4 /* PasswordInputView.m */,
+				16FF880F2E556C8200B35CC4 /* CustomKeybordView.h */,
+				16FF88102E556C8200B35CC4 /* CustomKeybordView.m */,
+				16FF88122E556D4900B35CC4 /* KeybordCell.h */,
+				16FF88132E556D4900B35CC4 /* KeybordCell.m */,
+				16FF881F2E55C12C00B35CC4 /* CLHaloLabel.h */,
+				16FF88202E55C12C00B35CC4 /* CLHaloLabel.m */,
+				16B9B5652E82732100496B3D /* GestureView.h */,
+				16B9B5662E82732100496B3D /* GestureView.m */,
+				16DCE5C32F3DB69200872C10 /* WhiteDotView.h */,
+				16DCE5C42F3DB69200872C10 /* WhiteDotView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51A09513ECA3B8A029E2BE91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E82B39B9F7DC565FF9F2322 /* Pods-AIDOCK.debug.xcconfig */,
+				2555BEC37CFD75BF8F1CED28 /* Pods-AIDOCK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		61A26F126DD76EC71264A3F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97ECDEA72F6D1CE500D2DC21 /* AgoraRtmKit.xcframework */,
+				91B9B334E7AF751F4F9A8B52 /* Pods_AIDOCK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		167242E32E540FC8001470E5 /* AIDOCK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167242FC2E540FCA001470E5 /* Build configuration list for PBXNativeTarget "AIDOCK" */;
+			buildPhases = (
+				8EF7315B1EDEB82D6948164B /* [CP] Check Pods Manifest.lock */,
+				167242E02E540FC8001470E5 /* Sources */,
+				167242E12E540FC8001470E5 /* Frameworks */,
+				167242E22E540FC8001470E5 /* Resources */,
+				C1B4980100393CE3C4EE9F33 /* [CP] Embed Pods Frameworks */,
+				97ECDEAA2F6D1CE500D2DC21 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIDOCK;
+			productName = AIDOCK;
+			productReference = 167242E42E540FC8001470E5 /* AIDOCK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167242DC2E540FC8001470E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					167242E32E540FC8001470E5 = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+				};
+			};
+			buildConfigurationList = 167242DF2E540FC8001470E5 /* Build configuration list for PBXProject "AIDOCK" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 167242DB2E540FC8001470E5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 167242E52E540FC8001470E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				167242E32E540FC8001470E5 /* AIDOCK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		167242E22E540FC8001470E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167243132E540FD3001470E5 /* Assets.xcassets in Resources */,
+				16FF881B2E55B6B000B35CC4 /* video.mp4 in Resources */,
+				167243152E540FD3001470E5 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EF7315B1EDEB82D6948164B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIDOCK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B4980100393CE3C4EE9F33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDOCK/Pods-AIDOCK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDOCK/Pods-AIDOCK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIDOCK/Pods-AIDOCK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167242E02E540FC8001470E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9725DFDB2F7231A1008E49F4 /* NoPopNavigationController.m in Sources */,
+				16B9B5672E82732100496B3D /* GestureView.m in Sources */,
+				1672430F2E540FD3001470E5 /* AppDelegate.m in Sources */,
+				167243102E540FD3001470E5 /* main.m in Sources */,
+				1654542E2E5463960034A32D /* LoginViewController.m in Sources */,
+				16FF880E2E555EC800B35CC4 /* PasswordInputView.m in Sources */,
+				16FF88142E556D4900B35CC4 /* KeybordCell.m in Sources */,
+				169A46BE2F4EF4BC0013375B /* ScanViewController.swift in Sources */,
+				A9B1C2D42F5A6B7C0034D21E /* AgoraViewController.swift in Sources */,
+				167243192E541894001470E5 /* StartViewController.m in Sources */,
+				16FF88192E55AE7600B35CC4 /* ConnectViewController.m in Sources */,
+				A769A86F2C114C00A1926A38 /* NoPopNavigationController.m in Sources */,
+				16FF88112E556C8200B35CC4 /* CustomKeybordView.m in Sources */,
+				16FF880B2E555A1500B35CC4 /* PasswordDotView.m in Sources */,
+				16DCE5A22F3C8A7100872C10 /* NetworkManager.m in Sources */,
+				167243882E5426E2001470E5 /* BindViewController.m in Sources */,
+				16DCE5C52F3DB69200872C10 /* WhiteDotView.m in Sources */,
+				A9C1D0012F5B00000034D21E /* AgoraTokenBuilder.m in Sources */,
+				167243112E540FD3001470E5 /* SceneDelegate.m in Sources */,
+				16FF88212E55C12C00B35CC4 /* CLHaloLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		167243062E540FD3001470E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167243052E540FD3001470E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		167242FD2E540FCA001470E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E82B39B9F7DC565FF9F2322 /* Pods-AIDOCK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YV2UCL8C4F;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIDOCK/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AIDock希望使用您的相机";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AIDock希望使用您的麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AIDock希望访问您的相册，用于扫描二维码图片";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidock.AIDOCK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AIDOCK/AIDOCK-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		167242FE2E540FCA001470E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2555BEC37CFD75BF8F1CED28 /* Pods-AIDOCK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YV2UCL8C4F;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIDOCK/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AIDock希望使用您的相机";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AIDock希望使用您的麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AIDock希望访问您的相册，用于扫描二维码图片";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidock.AIDOCK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AIDOCK/AIDOCK-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		167242FF2E540FCA001470E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G7Y85R3NXD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		167243002E540FCA001470E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G7Y85R3NXD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167242DF2E540FC8001470E5 /* Build configuration list for PBXProject "AIDOCK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167242FF2E540FCA001470E5 /* Debug */,
+				167243002E540FCA001470E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167242FC2E540FCA001470E5 /* Build configuration list for PBXNativeTarget "AIDOCK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167242FD2E540FCA001470E5 /* Debug */,
+				167242FE2E540FCA001470E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167242DC2E540FC8001470E5 /* Project object */;
+}
